@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.head{
+    background-color: violet;
+}
+.head:hover
+{
+    background-color: green;
+}
+.rows:nth-child(odd){
+    background-color: gray;
+}
+.rows:hover:nth-child(even){
+    background-color: rgb(252, 9, 62);
+}

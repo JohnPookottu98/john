@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="setData()">click</button>
+    <p id="para1"></p>
+    <p id="para2">welcome</p>
+    <script>
+        function setData(){
+            // document.getElementById("para1").innerText="hey all welcome"
+            document.getElementById("para1").innerHTML="hey all<div> welcome</div>"
+            document.getElementById("para2").style.color="red"
+            document.getElementById("para2").style.fontWeight="bold"
+            document.getElementById("para2").onmouseenter=alert("hello")
+        
+
+        }
+    </script> -->
+    <img id="im1" width="150" height="150" src="../images/messi.jpg" onclick="change()" alt="">
+    <script>
+        function change(){
+            console.log(document.getElementById("im1").src)
+            if (document.getElementById("im1").src=="file:///home/jo/Desktop/project/images/messi.jpg")
+            {
+                document.getElementById("im1").src="file:///home/jo/Desktop/project/images/ronaldo.jpg"
+            }
+            else{
+                document.getElementById("im1").src="file:///home/jo/Desktop/project/images/messi.jpg"
+            }
+
+            }
+    </script>
+
+</body>
+</html> 
